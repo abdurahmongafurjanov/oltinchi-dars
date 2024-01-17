@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 10px 10px 0 0 ;
+    
+    
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px  20px;
+}
+.table thead{
+    background: white;
+    color: black;
+    text-align: left;
+}
+.table th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.table th:last-child{
+    border-radius:  0 10px 0 0;
+}
+.table tbody tr:nth-child(odd){
+    background: #f1f1f1;
+}
+.table tbody tr:hover{
+    color: dodgerblue;
+}
+
+.btn{
+    background: green;
+    color: white;
+    border: none;
+    padding: 3px 2px;
+    
+}
+.sariq{
+    background: yellow;
+    border: none;
+    padding: 3px 2px;
+    
+
+}
+.qizil{
+    background: red;
+    color: white;
+    border: none;
+    padding: 3px 2px;
+    
+}

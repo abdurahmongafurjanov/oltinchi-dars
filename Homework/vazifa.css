@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    
+    
+    
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px  20px;
+}
+.table thead{
+    background: rgb(84, 23, 153);
+    color: white;
+    text-align: left;
+}
+
+.table tbody td:nth-child(odd){
+    background: #f1f1f1;
+}
+.btn{
+    background: rgb(97, 26, 177);
+    color: white;
+    border: none;
+    padding: 3px 3px;
+}

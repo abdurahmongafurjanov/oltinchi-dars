@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: greenyellow;
+}
+.table{
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 10px 10px 0 0 ;
+    background: white;
+
+    
+    
+    
+}
+.table th,
+.table td{
+
+    padding: 10px  20px;
+}
+.table thead{
+    background: rgb(229, 229, 2);
+    color: black;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd){
+    background: white;
+}
+
+
+
